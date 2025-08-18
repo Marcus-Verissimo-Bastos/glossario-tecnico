@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="logo"><a href="index.html">Glossário</a></div>
+
+        <div class="menu">
+            <a href="#tags-html">Tags HTML</a>
+            <a href="#propriedades-css">Propriedades CSS</a>
+            <a href="tutoriais(1).html">Tutoriais</a>
+            <a href="contato.html">Contato</a>
+        </div>
+    </nav>
+    <main>
+        <section class="introducao">
+            <div class="intro">
+
+                <h1>Glossário</h1>
+                <h4>Objetivo da Atividade:</h4>
+                <p>
+                    Desenvolver um site de glossário técnico contendo tags HTML e propriedades CSS, com
+                    fins de consulta e apoio aos estudos. O site será autoral, com design próprio, e deverá ser
+                    publicado online.
+                </p>
+                <h4>Tecnologias Utilizadas:</h4>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                </ul>
+            </div>
+        </section>
+        <section id="tags-html" class="tags-html">
+            <div class="section-container">
+                
+                <div class="container">
+                    <h1 class="titulo">Tags HTML</h1>
+                    <div class="cards">
+                        <button class="seta seta-esquerda" onclick="click()">&#10094;</button>
+                        <div class="card">
+                            <h1>&lt;code&gt;</h1>
+                            <p>Cria um bloco de código.</p>
+                            <div class="code-container">
+                                <code>&lt;code&gt;Seu código aqui&lt;/code&gt;</code>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h1>&lt;script&gt;</h1>
+                            <p>Insere JavaScript no HTML.</p>
+                            <div class="code-container">
+                                <code>&lt;script&gt;Seu código JS aqui.&lt;/script&gt;</code>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h1>&lt;div&gt;</h1>
+                            <p>Usada para agrupar e dividir elementos.</p>
+                            <div class="code-container">
+                                <code>&lt;div&gt;Seu texto aqui&lt;/div&gt;</code>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h1>&lt;mark&gt;</h1>
+                            <p>Destaca o texto (estilo marca-texto).</p>
+                            <div class="code-container">
+                                <code>&lt;mark&gt;Seu texto&lt;/mark&gt;</code>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h1>&lt;ul&gt;</h1>
+                            <p>Define lista não ordenada.</p>
+                            <div class="code-container">
+                                <code>&lt;ul&gt;Sua lista aqui&lt;/ul&gt;</code>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h1>&lt;s&gt;</h1>
+                            <p>Risca o texto, mas mantém visível.</p>
+                            <div class="code-container">
+                                <code>&lt;s&gt;Seu texto aqui&lt;/s&gt;</code>
+                            </div>
+                        </div>
+                        <div class="card code-maior">
+                            <h1>&lt;li&gt;</h1>
+                            <p>Item de uma lista</p>
+                            <div class="code-container">
+                                <code>&lt;li&gt;Seu item&lt;/li&gt;</code>
+                            </div>
+                        </div>
+                        <div class="card code-maior">
+                            <h1>&lt;input&gt;</h1>
+                            <p>Define um campo de entrada de dados em um formulário</p>
+                            <div class="code-container">
+                                <code>&lt;input type="text" placeholder=""&gt;</code>
+                            </div>
+                        </div>
+                        
+                        <div class="card code-maior">
+                            <h1>&lt;button&gt;</h1>
+                            <p>Cria um botão.</p>
+                            <div class="code-container">
+                                <code>&lt;a href="link"&gt;Texto do botão&lt;/a&gt;</code>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h1>&lt;iframe&gt;</h1>
+                            <p>Anexa outra página HTML a atual.</p>
+                            <div class="code-container">
+                                <code>&lt;iframe scr="site" widht&gt;Seu texto aqui</code>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h1>&lt;a&gt;</h1>
+                            <p>Cria um link.</p>
+                            <div class="code-container">
+                                <code>&lt;a href="link"&gt;Seu texto aqui&lt;/a&gt;</code>
+                            </div>
+                        </div>
+                        <button class="seta seta-direita" onclick="click()">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="propriedades-css" class="propriedadesCss">
+            <div class="css-section-container">
+                <div class="container css-container">
+                    <h1 class="titulo">Propriedades CSS</h1>
+                    <div class="cards css-cards">
+                        <button class="seta seta-esquerda seta-esquerda-css" onclick="click()">&#10094;</button>
+                        <div class="card card-css">
+                            <h1>filter</h1>
+                            <p>Aplica efeitos gráficos.</p>
+                            <div class="code-container">
+                                <code>Filter: blur(5px);</code>
+                            </div>
+                        </div>
+                        <div class="card  card-css">
+                            <h1>clip-path</h1>
+                            <p>Recorta um elemento em forma geométrica.</p>
+                            <div class="code-container">
+                                <code>clip-path: circle(50% at center)</code>
+                            </div>
+                        </div>
+                        <div class="card card-css">
+                            <h1>backdrop-filter</h1>
+                            <p>Aplica efeitos gráficos ao fundo de um elemento.</p>
+                            <div class="code-container">
+                                <code>backdrop-filter: blur(10px);</code>
+                            </div>
+                        </div>
+                        <div class="card card-css">
+                            <h1>text-underline-offset</h1>
+                            <p>Define o espaçamento entre o sublinhado e o texto.</p>
+                            <div class="code-container">
+                                <code>  text-underline-offset: 4px;</code>
+                            </div>
+                        </div>
+                        <div class="card card-css">
+                            <h1>  text-emphasis</h1>
+                            <p>Aplica um estilo de ênfase a caracteres específicos.</p>
+                            <div class="code-container">
+                                <code>  text-emphasis: dot green;</code>
+                            </div>
+                        </div>
+                        <div class="card card-css">
+                            <h1>user-select</h1>
+                            <p>Controla se o text dentro de um elemento pode ser selecionado.</p>
+                            <div class="code-container">
+                                <code>  user-select: none;</code>
+                            </div>
+                        </div>
+                        <div class="card card-css code-maior">
+                            <h1>opacity</h1>
+                            <p>Define a opacidade de um elemento</p>
+                            <div class="code-container">
+                                <code>opacity: 0.5;</code>
+                            </div>
+                        </div>
+                        <div class="card card-css code-maior">
+                            <h1>z-index</h1>
+                            <p>Controla a sobreposição de elementos</p>
+                            <div class="code-container">
+                                <code>z-index: 1;</code>
+                            </div>
+                        </div>
+                        
+                        <div class="card card-css code-maior title-diferente">
+                            <h1>image-rendering</h1>
+                            <p>Controla como as imagens são renderizadas.</p>
+                            <div class="code-container">
+                                <code>image-rendering: pixelated;</code>
+                            </div>
+                        </div>
+                        <div class="card card-css">
+                            <h1>box-shadow</h1>
+                            <p>Adiciona sobreamento ao redor de um elemento.</p>
+                            <div class="code-container">
+                                <code>  box-shadow: 10px 10px rgba(0, 0, 0, 0.3);</code>
+                            </div>
+                        </div>
+                        <button class="seta seta-direita seta-direita-css" onclick="click()">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy;Site autoral - Marcus Vinicius Veríssimo Bastos</p>
+        </div>
+    </footer>
+    <script src="setas.js"></script>
+    <script src="section.js"></script>
+</body>
+</html>
